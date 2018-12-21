@@ -97,6 +97,7 @@ public class CodeAnalyzer {
                 try {
 					while((line = reader.readLine())!=null)
 					{
+					    line = line.trim();
 					    if(line.startsWith("//")){
 					    	count++;
 					    }
